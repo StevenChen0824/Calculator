@@ -1,0 +1,44 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.bg {
+	height: 100vh;
+	background: linear-gradient(#e66465, #9198e5);
+}
+
+.main {
+	/*置中*/
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);	
+}
+
+.textview {
+	height: 40px;
+	width: 316px;
+	margin: 4.5px;
+	padding: 10px;
+	border: none;
+	font-size: 25px;
+}
+
+.button {
+	width: 80px;
+	height: 80px;
+	margin: 2px;
+	font-size: 1.5rem;
+	cursor: pointer;
+	border: none;
+	background-color: #ccccc5;
+}
+
+.btn-0 {
+	width: 97%;
+}
+
+.btn-equal {
+	height: 165px;
+}
